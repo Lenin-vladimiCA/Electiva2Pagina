@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tarea Simple de Git 🚀</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        /* Configuración básica de la página */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Fondo muy claro */
+    color: #333; /* Texto oscuro */
+    line-height: 1.6;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #3f51b5; /* Azul primario */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Estilos para las secciones */
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+h2 {
+    color: #3f51b5;
+    border-bottom: 2px solid #3f51b5;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Estilos para las tarjetas (cards) */
+.caracteristicas {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    background-color: #e8eaf6; /* Azul muy claro */
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 5px solid #3f51b5;
+}
+
+.card h3 {
+    color: #1a237e;
+    margin-top: 0;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ccc;
+    color: #333;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Proyecto de Tarea Git y GitHub</h1>
+        <p>Demostrando el uso de control de versiones.</p>
+    </header>
+
+    <main>
+        <section class="acerca">
+            <h2>Acerca de esta Tarea</h2>
+            <p>Esta es una página web minimalista creada para practicar los comandos fundamentales de **Git**, como:</p>
+            <ul>
+                <li>`git init` (Inicializar el repositorio)</li>
+                <li>`git add` (Preparar los archivos)</li>
+                <li>`git commit` (Guardar los cambios)</li>
+                <li>`git push` (Subir al repositorio remoto como GitHub)</li>
+            </ul>
+        </section>
+
+        <section class="caracteristicas">
+            <h2>Características de la Página</h2>
+            <div class="card">
+                <h3>HTML Simple</h3>
+                <p>Estructura clara con un encabezado, una sección principal y un pie de página.</p>
+            </div>
+            <div class="card">
+                <h3>CSS Básico</h3>
+                <p>Estilos mínimos para hacerla presentable (fondo, colores y tipografía).</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Creado por Lenin vladimir - Fecha: Octubre 2025</p>
+        <p>link de la pagina</p> <a href="https://github.com/Lenin-vladimiCA/Electiva2Pagina/new/main">pagina</a>
+        <p>link del repositorio</p> <a href="https://github.com/Lenin-vladimiCA/Electiva2Pagina">repositorio</a>
+
+    </footer>
+
+</body>
+</html>
